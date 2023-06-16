@@ -1,0 +1,119 @@
+@media (max-width: 4080px){
+body{    
+    background-color: red;
+    color: black;
+    margin: 0px;
+    padding: px;
+}
+}
+/* ------------------------------desktop */
+@media (max-width: 1480px){
+body{    
+    background-color: hotpink;
+    color: black;
+    margin: 0px;
+    padding: px;
+    }
+}
+/* -------------------------------------mid */
+@media (max-width: 880px){
+body{    
+     background-color: rgb(225, 225, 225);
+     color: black;
+     margin: 0px;
+     padding: px;
+    }
+    .navBar{
+        background-color: rgb(0, 74, 126);
+        height: 56px;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        
+    }
+    .title{
+        height: 50px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        padding-top: 19px;
+        
+    }
+    .banner{
+        background-color: white;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoImg{
+        height: 22px;
+        
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        width: 5%;
+       
+    }
+    .mainContainer1{
+        border: solid black;
+        height: 68vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1000x1000.jpg");
+        background-size: 100% 74%;
+        background-repeat: no-repeat;
+        
+    }
+    .main{
+        margin-bottom: 20px;
+        background-color: white;
+        height: 260px;
+        border: solid red;
+        width: 700px;
+        
+    }
+     .mainContainer2{
+        border: solid green;
+        height: 63vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg");
+        background-size: 100% 74%;
+        background-repeat: no-repeat;
+    }
+    .title2{
+        height: 20px;
+        font-size: 29px;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        text-align: center;
+        padding-top: 39px;
+    }
+
+}
+/* -----------------------------------mobile */
+
+/* ------------------------general */
+.menuImg{
+    height: 28px;
+    width: 40px;
+}
+
+.logo{
+    width: 85%;
+}
+.vidContainer{
+    height: 35vh;
+}
+.vid{
+    
+    border: solid pink;
+    height: 100%;
+    width: 100%;
+}
